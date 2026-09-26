@@ -3,11 +3,11 @@
 #include <thread>
 #include <unistd.h>
 using namespace std;
+#include"MyQueue.h"
 
-#include "MyStackMutex.h"
 int main()
 {
-    testMyStackMutex();
+    testWaitUnlock();
     return 0;
 }
 

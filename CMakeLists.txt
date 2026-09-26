@@ -6,4 +6,5 @@ add_compile_options(-O0  -fno-inline -fno-tree-vectorize -fno-builtin -fno-omit-
 file(GLOB_RECURSE HEADER_FILES "${CMAKE_SOURCE_DIR}/*.h")
 
 add_executable(CppConcurrencyInAction main.cpp ${HEADER_FILES}
-        MyLevelMutex.h)
+        MyLevelMutex.h
+        CallOnce.h)
