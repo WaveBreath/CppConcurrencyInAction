@@ -3,11 +3,11 @@
 #include <thread>
 #include <unistd.h>
 using namespace std;
-#include"MyQueue.h"
+#include"Future.h"
 
 int main()
 {
-    testWaitUnlock();
+    test_quick_sort();
     return 0;
 }
 
