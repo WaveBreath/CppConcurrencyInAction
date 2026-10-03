@@ -2,12 +2,13 @@
 #include <numeric>
 #include <thread>
 #include <unistd.h>
+
+#include "Atom2.h"
 using namespace std;
-#include"Future.h"
 
 int main()
 {
-    test_quick_sort();
+    run();
     return 0;
 }
 
